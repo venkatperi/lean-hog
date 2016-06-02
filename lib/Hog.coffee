@@ -5,7 +5,7 @@ cli = require './cli'
 #check grunt version. Need >=1
 ver = _.map grunt.version.split('.'), ( x ) -> Number x
 unless ver[ 0 ] >= 1
-  return grunt.log.error "Need local grunt version >=1. Got #{grunt.version}"
+  throw new Error "Need local grunt version >=1. Got #{grunt.version}"
 
 log =
   info : ( msg ) -> grunt.log.writeln msg
