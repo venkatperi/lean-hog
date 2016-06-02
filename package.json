@@ -32,9 +32,6 @@
     "json-stringify-safe": "^5.0.1",
     "should": "^8.3.1"
   },
-  "bin": {
-    "hog": "bin/hog.js"
-  },
   "author": "Venkat Peri <venkatperi@gmail.com> (http://www.vperi.com/)",
   "license": "MIT",
   "keywords": [
